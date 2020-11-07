@@ -1,3 +1,3 @@
-# Admin Frontend
+# Material Frontend Template
 
-A frontend written using Next.js/React in TypeScript.
+A Frontend Template written using Material UI Next.js/React in TypeScript.

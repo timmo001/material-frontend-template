@@ -7,7 +7,6 @@ import DialogContent from "@material-ui/core/DialogContent";
 import DialogTitle from "@material-ui/core/DialogTitle";
 import Typography from "@material-ui/core/Typography";
 
-import { getApiMediaUrl } from "../lib/api";
 import { MediaType } from "./Types";
 import useStyles from "../assets/jss/components/layout";
 
@@ -40,11 +39,11 @@ function Image({
         onClick={openMediaDialog}>
         <Card className={classes.galleryItemCard} elevation={hidePaper ? 0 : 1}>
           {showAsImage ? (
-            <img src={getApiMediaUrl(media.url)} alt={media.alternativeText} />
+            <img src={media.url} alt={media.alternativeText} />
           ) : (
             <CardMedia
               className={classes.galleryItemMedia}
-              image={getApiMediaUrl(media.url)}
+              image={media.url}
               title={media.alternativeText}
             />
           )}
@@ -80,10 +79,7 @@ function Image({
               ) : (
                 ""
               )}
-              <img
-                src={getApiMediaUrl(media.url)}
-                alt={media.alternativeText}
-              />
+              <img src={media.url} alt={media.alternativeText} />
             </DialogContent>
           </Fragment>
         ) : (

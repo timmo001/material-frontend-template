@@ -23,21 +23,13 @@ function Home(props: HomeProps): ReactElement {
       {...props}
       classes={classes}
       title="Home"
-      url="https://admin-frontend.timmo.dev"
-      description="A frontend written using Next.js/React in TypeScript.">
-      <Container
-        className={classes.mainRaised}
-        component="article"
-        maxWidth="xl">
+      url="https://material-Material Frontend Template-template.timmo.dev"
+      description="A Frontend Template written using Material UI Next.js/React in TypeScript.">
+      <Container className={classes.main} component="article" maxWidth="xl">
         <Card>
           <CardContent>
-            <Typography
-              className={clsx("welcome-message", classes.welcomeMessage)}
-              align="center"
-              color="textPrimary"
-              component="div"
-              variant="h4">
-              <Markdown source="# Admin Frontend" escapeHtml={false} />
+            <Typography color="textPrimary" component="div">
+              <Markdown source="## Material Frontend Template" escapeHtml={false} />
             </Typography>
           </CardContent>
         </Card>

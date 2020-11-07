@@ -69,7 +69,11 @@ function Layout(props: LayoutProps): ReactElement {
   return (
     <>
       <Head>
-        <title>{props.title ? `${props.title} - Admin Frontend` : `Admin Frontend`}</title>
+        <title>
+          {props.title
+            ? `${props.title} - Material Frontend Template`
+            : `Material Frontend Template`}
+        </title>
         <link
           rel="apple-touch-icon"
           sizes="180x180"
@@ -97,13 +101,17 @@ function Layout(props: LayoutProps): ReactElement {
             props.description
               ? `${props.description}`
               : props.title
-              ? `${props.title} - Admin Frontend`
-              : `Admin Frontend`
+              ? `${props.title} - Frontend`
+              : `Material Frontend Template`
           }
         />
         <meta
           name="keywords"
-          content={props.keywords ? `${props.keywords}` : `Admin Frontend, developer`}
+          content={
+            props.keywords
+              ? `${props.keywords}`
+              : `material, frontend, template, material-ui, nextjs, reactjs, react, developer`
+          }
         />
         <meta name="msapplication-TileColor" content="#009688" />
         <meta name="theme-color" content="#009688" />
@@ -114,7 +122,7 @@ function Layout(props: LayoutProps): ReactElement {
           <CssBaseline />
           <Header
             {...props}
-            brand="Admin Frontend"
+            brand="Frontend"
             changeColorOnScroll={{
               height: 200,
               color: "primary",
@@ -124,25 +132,21 @@ function Layout(props: LayoutProps): ReactElement {
             rightLinks={<HeaderLinks {...props} />}
           />
           {props.children}
-          {props.general.footer_content ? (
-            <Container
-              className={classes.footer}
-              component="footer"
-              maxWidth="xl">
-              <Card>
-                <CardContent>
-                  <Typography component="div">
-                    <Markdown
-                      source={props.general.footer_content}
-                      escapeHtml={false}
-                    />
-                  </Typography>
-                </CardContent>
-              </Card>
-            </Container>
-          ) : (
-            ""
-          )}
+          <Container
+            className={classes.footer}
+            component="footer"
+            maxWidth="xl">
+            <Card>
+              <CardContent>
+                <Typography component="div">
+                  <Markdown
+                    source="Copyright © Aidan Timson"
+                    escapeHtml={false}
+                  />
+                </Typography>
+              </CardContent>
+            </Card>
+          </Container>
         </ThemeProvider>
       </NoSsr>
     </>

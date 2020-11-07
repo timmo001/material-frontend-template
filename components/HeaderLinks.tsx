@@ -21,11 +21,10 @@ function HeaderLinks(_props: HeaderLinksProps): ReactElement {
       <ListItem className={classes.listItem}>
         <Link href="/about">
           <Button variant="text" className={classes.navLink}>
-            <span className={classes.listItemText}>About Me</span>
+            <span className={classes.listItemText}>About</span>
           </Button>
         </Link>
       </ListItem>
-      <ListItem className={clsx(classes.listItem, classes.divider)} />
       <ListItem className={clsx(classes.listItem, classes.divider)} />
       <ListItem className={classes.listItem}>
         <Tooltip title="GitHub" classes={{ tooltip: classes.tooltip }}>
