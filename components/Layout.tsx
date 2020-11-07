@@ -140,7 +140,7 @@ function Layout(props: LayoutProps): ReactElement {
               <CardContent>
                 <Typography component="div">
                   <Markdown
-                    source="Copyright © Aidan Timson"
+                    source="Copyright © Owner"
                     escapeHtml={false}
                   />
                 </Typography>
