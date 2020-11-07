@@ -16,7 +16,6 @@ function Image(props: ImageProps): ReactElement {
       showAsImage
       media={{
         alternativeText: props.alt,
-        name: props.alt,
         url: props.src,
       }}
     />
