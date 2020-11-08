@@ -19,7 +19,7 @@ function Home(props: HomeProps): ReactElement {
       {...props}
       classes={classes}
       title="Home"
-      url="https://material-Frontend-template.timmo.dev"
+      url="https://material-frontend-template.timmo.dev"
       description="A Frontend Template written using Material UI Next.js/React in TypeScript.">
       <Container className={classes.main} component="article" maxWidth="xl">
         <Card>
