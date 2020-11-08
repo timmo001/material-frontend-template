@@ -55,7 +55,7 @@ let theme = createMuiTheme({
 theme = responsiveFontSizes(theme);
 
 interface LayoutProps {
-  children?: ReactElement[];
+  children?: ReactElement | ReactElement[];
   classes: ClassNameMap;
   description?: string;
   keywords?: string;
@@ -139,10 +139,7 @@ function Layout(props: LayoutProps): ReactElement {
             <Card>
               <CardContent>
                 <Typography component="div">
-                  <Markdown
-                    source="Copyright © Owner"
-                    escapeHtml={false}
-                  />
+                  <Markdown source="Copyright © Owner" escapeHtml={false} />
                 </Typography>
               </CardContent>
             </Card>
