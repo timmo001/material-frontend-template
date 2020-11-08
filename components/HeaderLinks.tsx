@@ -31,7 +31,7 @@ function HeaderLinks(_props: HeaderLinksProps): ReactElement {
           <Button
             variant="text"
             className={classes.navLink}
-            href="https://github.com/timmo001"
+            href="https://github.com/timmo001/material-frontend-template"
             target="_blank">
             <Icon
               path={mdiInformation}
