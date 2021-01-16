@@ -18,8 +18,8 @@
     "fontsource-roboto": "3.1.5",
     "moment": "2.29.1",
     "next": "10.0.5",
-    "react": "16.14.0",
-    "react-dom": "16.14.0",
+    "react": "17.0.1",
+    "react-dom": "17.0.1",
     "react-markdown": "5.0.3",
     "react-moment": "1.1.1",
     "react-syntax-highlighter": "15.4.3"
