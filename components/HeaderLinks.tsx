@@ -6,6 +6,7 @@ import Button from "@material-ui/core/Button";
 import List from "@material-ui/core/List";
 import ListItem from "@material-ui/core/ListItem";
 import Tooltip from "@material-ui/core/Tooltip";
+// eslint-disable-next-line import/no-named-as-default
 import Icon from "@mdi/react";
 import { mdiInformation } from "@mdi/js";
 

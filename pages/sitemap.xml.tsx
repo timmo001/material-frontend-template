@@ -17,9 +17,10 @@ const generateSitemap = (pages: PageType[], origin: string): string => {
 </urlset>`;
 };
 
+// eslint-disable-next-line @typescript-eslint/explicit-module-boundary-types
 export async function getServerSideProps({
   res,
-}): Promise<{ [key: string]: any }> {
+}): Promise<{ [key: string]: unknown }> {
   const data: PageType[] = [];
   data.push({ path: "/", updated: "2020-11-08T00:00:00.000Z" });
 
