@@ -59,7 +59,7 @@ function Layout(props: LayoutProps): ReactElement {
         }}
         color="transparent"
         fixed
-        rightLinks={<HeaderLinks {...props} />}
+        rightLinks={<HeaderLinks />}
       />
       {props.children}
       <Container className={classes.footer} component="footer" maxWidth="xl">
