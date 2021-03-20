@@ -9,7 +9,7 @@ import Tooltip from "@material-ui/core/Tooltip";
 import Icon from "@mdi/react";
 import { mdiInformation } from "@mdi/js";
 
-import useStyles from "../assets/jss/components/headerLinks";
+import useStyles from "assets/jss/components/headerLinks";
 
 function HeaderLinks(): ReactElement {
   const classes = useStyles();

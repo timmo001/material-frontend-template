@@ -8,7 +8,7 @@ import DialogTitle from "@material-ui/core/DialogTitle";
 import Typography from "@material-ui/core/Typography";
 
 import { MediaType } from "./Types";
-import useStyles from "../assets/jss/components/layout";
+import useStyles from "assets/jss/components/layout";
 
 interface SliderProps {
   hideCaption?: boolean;

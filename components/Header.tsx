@@ -1,6 +1,7 @@
 import React, { ReactElement, useEffect, useState } from "react";
 import Link from "next/link";
 import clsx from "clsx";
+import { PropTypes } from "@material-ui/core";
 import AppBar from "@material-ui/core/AppBar";
 import Button from "@material-ui/core/Button";
 import Container from "@material-ui/core/Container";
@@ -11,8 +12,7 @@ import Menu from "@material-ui/icons/Menu";
 import Toolbar from "@material-ui/core/Toolbar";
 import Typography from "@material-ui/core/Typography";
 
-import { PropTypes } from "@material-ui/core";
-import useStyles from "../assets/jss/components/header";
+import useStyles from "assets/jss/components/header";
 
 type ColorExpanded = PropTypes.Color | "transparent";
 

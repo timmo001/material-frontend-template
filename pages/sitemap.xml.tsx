@@ -1,4 +1,4 @@
-import { PageType } from "../components/Types";
+import { PageType } from "components/Types";
 
 const generateSitemap = (pages: PageType[], origin: string): string => {
   let xml = "";

@@ -5,9 +5,9 @@ import CardContent from "@material-ui/core/CardContent";
 import Container from "@material-ui/core/Container";
 import Typography from "@material-ui/core/Typography";
 
-import Layout from "../components/Layout";
-import Markdown from "../components/Markdown";
-import useStyles from "../assets/jss/components/layout";
+import Layout from "components/Layout";
+import Markdown from "components/Markdown";
+import useStyles from "assets/jss/components/layout";
 
 function Home(): ReactElement {
   const classes = useStyles();
