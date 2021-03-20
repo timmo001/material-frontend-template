@@ -37,5 +37,5 @@ export async function getServerSideProps({
   };
 }
 
-const SitemapIndex = () => null;
+const SitemapIndex = (): null => null;
 export default SitemapIndex;

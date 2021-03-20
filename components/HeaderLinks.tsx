@@ -11,9 +11,7 @@ import { mdiInformation } from "@mdi/js";
 
 import useStyles from "../assets/jss/components/headerLinks";
 
-interface HeaderLinksProps {}
-
-function HeaderLinks(_props: HeaderLinksProps): ReactElement {
+function HeaderLinks(): ReactElement {
   const classes = useStyles();
   const theme = useTheme();
   return (
