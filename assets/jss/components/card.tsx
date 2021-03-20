@@ -7,7 +7,7 @@ const cardStyle = makeStyles((theme: Theme) => ({
   },
   card: {
     minHeight: "100%",
-    minWidth: "100%",    
+    minWidth: "100%",
   },
   media: {
     height: 320,

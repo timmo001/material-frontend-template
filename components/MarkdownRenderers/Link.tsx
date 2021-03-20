@@ -1,4 +1,3 @@
-import { mdiConsoleLine } from "@mdi/js";
 import React, { ReactElement } from "react";
 
 interface LinkProps {

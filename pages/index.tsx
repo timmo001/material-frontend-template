@@ -5,18 +5,15 @@ import CardContent from "@material-ui/core/CardContent";
 import Container from "@material-ui/core/Container";
 import Typography from "@material-ui/core/Typography";
 
-import Layout from "../components/Layout";
-import Markdown from "../components/Markdown";
-import useStyles from "../assets/jss/components/layout";
+import Layout from "components/Layout";
+import Markdown from "components/Markdown";
+import useStyles from "assets/jss/components/layout";
 
-interface HomeProps {}
-
-function Home(props: HomeProps): ReactElement {
+function Home(): ReactElement {
   const classes = useStyles();
 
   return (
     <Layout
-      {...props}
       classes={classes}
       title="Home"
       url="https://material-frontend-template.timmo.dev"

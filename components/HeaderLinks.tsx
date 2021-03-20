@@ -6,14 +6,13 @@ import Button from "@material-ui/core/Button";
 import List from "@material-ui/core/List";
 import ListItem from "@material-ui/core/ListItem";
 import Tooltip from "@material-ui/core/Tooltip";
+// eslint-disable-next-line import/no-named-as-default
 import Icon from "@mdi/react";
 import { mdiInformation } from "@mdi/js";
 
-import useStyles from "../assets/jss/components/headerLinks";
+import useStyles from "assets/jss/components/headerLinks";
 
-interface HeaderLinksProps {}
-
-function HeaderLinks(_props: HeaderLinksProps): ReactElement {
+function HeaderLinks(): ReactElement {
   const classes = useStyles();
   const theme = useTheme();
   return (

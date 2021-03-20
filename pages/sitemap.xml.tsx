@@ -1,4 +1,4 @@
-import { PageType } from "../components/Types";
+import { PageType } from "components/Types";
 
 const generateSitemap = (pages: PageType[], origin: string): string => {
   let xml = "";
@@ -17,9 +17,10 @@ const generateSitemap = (pages: PageType[], origin: string): string => {
 </urlset>`;
 };
 
+// eslint-disable-next-line @typescript-eslint/explicit-module-boundary-types
 export async function getServerSideProps({
   res,
-}): Promise<{ [key: string]: any }> {
+}): Promise<{ [key: string]: unknown }> {
   const data: PageType[] = [];
   data.push({ path: "/", updated: "2020-11-08T00:00:00.000Z" });
 
@@ -37,5 +38,5 @@ export async function getServerSideProps({
   };
 }
 
-const SitemapIndex = () => null;
+const SitemapIndex = (): null => null;
 export default SitemapIndex;
