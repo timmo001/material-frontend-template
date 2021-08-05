@@ -6,6 +6,7 @@ import Image from "./MarkdownRenderers/Image";
 import Link from "./MarkdownRenderers/Link";
 
 interface MarkdownProps {
+  escapeHtml: boolean;
   source: string;
 }
 
