@@ -66,7 +66,7 @@ function Layout(props: LayoutProps): ReactElement {
         <Card>
           <CardContent>
             <Typography component="div">
-              <Markdown source="Copyright © Owner" escapeHtml={false} />
+              <Markdown source="Copyright © Owner" />
             </Typography>
           </CardContent>
         </Card>

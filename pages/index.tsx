@@ -22,7 +22,7 @@ function Home(): ReactElement {
         <Card>
           <CardContent>
             <Typography color="textPrimary" component="div">
-              <Markdown source="## Frontend" escapeHtml={false} />
+              <Markdown source="## Frontend" />
             </Typography>
           </CardContent>
         </Card>
