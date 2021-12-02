@@ -1,10 +1,7 @@
 import React, { ReactElement } from "react";
 import Head from "next/head";
-import { ClassNameMap } from "@material-ui/styles";
-import Card from "@material-ui/core/Card";
-import CardContent from "@material-ui/core/CardContent";
-import Container from "@material-ui/core/Container";
-import Typography from "@material-ui/core/Typography";
+import { Container, Card, CardContent, Typography } from "@mui/material";
+import { ClassNameMap } from "@mui/styles";
 
 import Header from "./Header";
 import HeaderLinks from "./HeaderLinks";

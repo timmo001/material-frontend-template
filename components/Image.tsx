@@ -1,11 +1,13 @@
 import React, { Fragment, ReactElement, useState } from "react";
-import ButtonBase from "@material-ui/core/ButtonBase";
-import Card from "@material-ui/core/Card";
-import CardMedia from "@material-ui/core/CardMedia";
-import Dialog from "@material-ui/core/Dialog";
-import DialogContent from "@material-ui/core/DialogContent";
-import DialogTitle from "@material-ui/core/DialogTitle";
-import Typography from "@material-ui/core/Typography";
+import {
+  ButtonBase,
+  Card,
+  CardMedia,
+  Typography,
+  Dialog,
+  DialogTitle,
+  DialogContent,
+} from "@mui/material";
 
 import { MediaType } from "./Types";
 import useStyles from "assets/jss/components/layout";
@@ -36,7 +38,8 @@ function Image({
     <Fragment>
       <ButtonBase
         className={!showAsImage ? classes.galleryItem : ""}
-        onClick={openMediaDialog}>
+        onClick={openMediaDialog}
+      >
         <Card className={classes.galleryItemCard} elevation={hidePaper ? 0 : 1}>
           {showAsImage ? (
             <img src={media.url} alt={media.alternativeText} />
@@ -61,7 +64,8 @@ function Image({
         scroll="body"
         open={showDialog}
         onClick={closeMediaDialog}
-        onClose={closeMediaDialog}>
+        onClose={closeMediaDialog}
+      >
         {showDialog ? (
           <Fragment>
             {!hideTitle && media.alternativeText ? (
