@@ -7,11 +7,11 @@ import {
   Drawer,
   Hidden,
   IconButton,
-  Menu,
   PropTypes,
   Toolbar,
   Typography,
 } from "@mui/material";
+import { Menu } from "@mui/icons-material";
 import clsx from "clsx";
 
 import useStyles from "assets/jss/components/header";
