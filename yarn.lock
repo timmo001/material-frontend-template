@@ -513,10 +513,10 @@
   dependencies:
     "@types/react" "*"
 
-"@types/react-syntax-highlighter@13.5.2":
-  version "13.5.2"
-  resolved "https://registry.yarnpkg.com/@types/react-syntax-highlighter/-/react-syntax-highlighter-13.5.2.tgz#357cc03581dc434c57c3b31f70e0eecdbf7b3ab0"
-  integrity sha512-sRZoKZBGKaE7CzMvTTgz+0x/aVR58ZYUTfB7HN76vC+yQnvo1FWtzNARBt0fGqcLGEVakEzMu/CtPzssmanu8Q==
+"@types/react-syntax-highlighter@15.5.5":
+  version "15.5.5"
+  resolved "https://registry.yarnpkg.com/@types/react-syntax-highlighter/-/react-syntax-highlighter-15.5.5.tgz#4d3b51f8956195f1f63360ff03f8822c5d74c516"
+  integrity sha512-QH3JZQXa2usAvJvSsdSUJ4Yu4j8ReuZpgRrEW+XP+Rmosbn425YshW9iGEb/pAARm8496axHhHUPRH3UmTiB6A==
   dependencies:
     "@types/react" "*"
 
@@ -2043,12 +2043,7 @@ minimatch@^3.0.4:
   dependencies:
     brace-expansion "^1.1.7"
 
-minimist@^1.2.0:
-  version "1.2.6"
-  resolved "https://registry.yarnpkg.com/minimist/-/minimist-1.2.6.tgz#8637a5b759ea0d6e98702cfb3a9283323c93af44"
-  integrity sha512-Jsjnk4bw3YJqYzbdyBiNsPWHPfO++UGG749Cxs6peCu5Xg4nrena6OVxOYxrQTqww0Jmwt+Ref8rggumkTLz9Q==
-
-minimist@^1.2.6:
+minimist@^1.2.0, minimist@^1.2.6:
   version "1.2.6"
   resolved "https://registry.yarnpkg.com/minimist/-/minimist-1.2.6.tgz#8637a5b759ea0d6e98702cfb3a9283323c93af44"
   integrity sha512-Jsjnk4bw3YJqYzbdyBiNsPWHPfO++UGG749Cxs6peCu5Xg4nrena6OVxOYxrQTqww0Jmwt+Ref8rggumkTLz9Q==
