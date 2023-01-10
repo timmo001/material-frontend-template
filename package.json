@@ -9,7 +9,7 @@
     "start": "next start"
   },
   "dependencies": {
-    "@emotion/react": "11.8.1",
+    "@emotion/react": "11.10.5",
     "@emotion/styled": "11.8.1",
     "@fontsource/roboto": "4.5.3",
     "@mdi/js": "7.1.96",
