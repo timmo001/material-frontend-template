@@ -518,12 +518,7 @@
   resolved "https://registry.yarnpkg.com/@types/parse-json/-/parse-json-4.0.0.tgz#2f8bb441434d163b35fb8ffdccd7138927ffb8c0"
   integrity sha512-//oorEZjL6sbPcKUaCdIGlIUeH26mgzimjBB77G6XRgnDl/L5wOnpyBGRe/Mmf5CVW3PwEBE1NjiMZ/ssFh4wA==
 
-"@types/prop-types@*", "@types/prop-types@^15.0.0":
-  version "15.7.4"
-  resolved "https://registry.yarnpkg.com/@types/prop-types/-/prop-types-15.7.4.tgz#fcf7205c25dff795ee79af1e30da2c9790808f11"
-  integrity sha512-rZ5drC/jWjrArrS8BR6SIr4cWpW09RNTYt9AMZo3Jwwif+iacXAqgVjm0B0Bv/S1jhDXKHqRVNCbACkJ89RAnQ==
-
-"@types/prop-types@^15.7.5":
+"@types/prop-types@*", "@types/prop-types@^15.0.0", "@types/prop-types@^15.7.5":
   version "15.7.5"
   resolved "https://registry.yarnpkg.com/@types/prop-types/-/prop-types-15.7.5.tgz#5f19d2b85a98e9558036f6a3cacc8819420f05cf"
   integrity sha512-JCB8C6SnDoQf0cNycqd/35A7MjcnK+ZTqE7judS6o7utxUCg6imJg3QK2qzHKszlTjcj2cn+NwMB2i96ubpj7w==
@@ -2356,10 +2351,10 @@ react-is@^18.0.0, react-is@^18.2.0:
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-18.2.0.tgz#199431eeaaa2e09f86427efbb4f1473edb47609b"
   integrity sha512-xWGDIW6x921xtzPkhiULtthJHoJvBbF3q26fzloPCK0hsvxtPVelvftw3zjbHWSkR2km9Z+4uxbDDK/6Zw9B8w==
 
-react-markdown@8.0.2:
-  version "8.0.2"
-  resolved "https://registry.yarnpkg.com/react-markdown/-/react-markdown-8.0.2.tgz#43a12f5031abf7df5097d1351db465ceca3a69e0"
-  integrity sha512-WeXeDlCPFZBbN75AiLVEmN4gC6pNWadsZVWWxWpvrYQnUTHsB3l1PH60I1sbxTJr0oWOQc3zhxTrRQMTceNifw==
+react-markdown@8.0.4:
+  version "8.0.4"
+  resolved "https://registry.yarnpkg.com/react-markdown/-/react-markdown-8.0.4.tgz#b5ff1f0f29ead71a7a6f98815eb1a70bcc2a036e"
+  integrity sha512-2oxHa6oDxc1apg/Gnc1Goh06t3B617xeywqI/92wmDV9FELI6ayRkwge7w7DoEqM0gRpZGTNU6xQG+YpJISnVg==
   dependencies:
     "@types/hast" "^2.0.0"
     "@types/prop-types" "^15.0.0"
