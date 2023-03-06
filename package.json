@@ -29,7 +29,7 @@
   },
   "license": "MIT",
   "devDependencies": {
-    "@types/node": "18.14.5",
+    "@types/node": "18.14.6",
     "@types/react": "17.0.39",
     "@types/react-syntax-highlighter": "15.5.6",
     "@typescript-eslint/eslint-plugin": "5.54.0",
